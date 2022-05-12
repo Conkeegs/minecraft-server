@@ -1,0 +1,23 @@
+bounceback: true
+teleport_entities: true
+send_no_destination_message: true
+send_disabled_portal_message: true
+worlds:
+  world_nether:
+    portalgoesto:
+      NETHER: boob12
+  world_the_end:
+    portalgoesto:
+      ENDER: boob12
+  boob10:
+    portalgoesto:
+      NETHER: world_nether
+      ENDER: world_the_end
+  boob11:
+    portalgoesto:
+      NETHER: world_nether
+      ENDER: world_the_end
+  boob12:
+    portalgoesto:
+      NETHER: world_nether
+      ENDER: world_the_end
